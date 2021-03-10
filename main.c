@@ -62,7 +62,7 @@ int main(int argc, char** argv) {
 		for (int j = 0; j < length; j++) {
 			buf[j] = strings[j*N + i];
 		}
-		printf("%s vs %s %d\n",buf, refstr, distances[i]);
+		//printf("%s vs %s %d\n",buf, refstr, distances[i]);
 	}
 
 	free(strings);
